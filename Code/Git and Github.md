@@ -7,7 +7,7 @@ A repository is usually used to organize a single project. Repositories can cont
 `git config --global user.email "316222290@qq.com"`
 
 ```
-git init
+git init # only when creating a new repository
 git add .
 git commit -m "<note>"
 git remote add origin https://github.com/Ohhhhhhhhyjay/Notes.git
@@ -25,4 +25,4 @@ When you create a branch off the `main` branch, you're making a copy, or snaps
 
 Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our `main` (production) branch. When a change is ready, they merge their branch into `main`.
 
-## Making and committing changes
+
