@@ -1,0 +1,5 @@
+- masses greater than $\sim 10^9 M_\odot$
+- very rare, number density of $\sim 1\, Gpc^{-3}$ 
+- $z > 6$
+- currently discovered over 100
+- Most massive: SDSS J010013.02+280225.8 $1.2\times10^{10} M_\odot$

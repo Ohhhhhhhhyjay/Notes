@@ -1,0 +1,1 @@
+`from <module> import *` : import all functions in `<module>`. One can refer to them directly (instead of `<module>.<function>`).
