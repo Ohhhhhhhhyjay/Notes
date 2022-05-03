@@ -1,1 +1,5 @@
 # Notes
+
+Here I plan to keep track of what I have learned as an astronomy student. It's an attempt to answer one of the most unsettling questions in my head. What have I learned? I took all the classes, did all the work and got fair grades, but I always have to learn something all over again when encountered in future study. It just seems that I forget as fast as I learn. For example, blackbody radiation is visited half a dozen times in different courses, but for me it feels familiar every time, but also inconsistent every time. Another example is atom radiation, it is treated in both Quantum Mechanics and Atomic Physics, but with completely different methods. How are these ideas connected?
+
+I use Obsidian for now because the backlinks and graph views feels really convenient, and suits how these knowledge are connected, not in subjects and categories, but in nets. Obsidian offers a great tool to connect all these dots into a big picture of physics and astronomy. Big, but full of detail nonetheless. According to my plan, this repository will be updated continuously. 

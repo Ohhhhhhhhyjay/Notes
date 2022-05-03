@@ -13,6 +13,7 @@ git commit -m "<note>"
 git remote add origin https://github.com/Ohhhhhhhhyjay/Notes.git
 git push -u origin main
 ```
+-u: set-upstream, For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less [git-pull(1)](git-pull.html) and other commands. For more information, see `branch.<name>.merge` in [git-config(1)](git-config.html).
 
 ## Creating a branch
 
