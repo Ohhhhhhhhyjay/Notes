@@ -1,4 +1,4 @@
-## 概念和记号
+## Concepts and Notations
 - 辐射强度 $I_\nu$
 $$
 	dE_\nu = I_\nu d\sigma \cos{\theta} d\nu dt d\omega
