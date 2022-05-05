@@ -16,7 +16,8 @@ Or in Lagrangian description, multiplying [the mass distribution function](<Stel
 $$
 \frac{dp}{dM_r} = -\frac{g}{4\pi r^2} = -\frac{GM_r}{4\pi r^4}.
 $$
-## Hydrostatic Equilibrium Timescale
+## Application of the Equation
+### Hydrostatic Equilibrium Timescale
 For non-equilibrium cases,
 $$
 \rho\ddot{R}d\sigma dr = p(r)d\sigma - p(r+dr)d\sigma - \rho g dr d\sigma
@@ -32,5 +33,23 @@ $$
 	is of the same magnitude with [free fall scale](<Star Formation>)
 2. Pressure gradient dominates
 	$$
-	\tau_h \sim R(\frac{\rho}{p})^{1/2} = \frac{R}{c_s}
+	\begin{align}
+	\tau_h &\sim R(\frac{\rho}{p})^{1/2} \sim \frac{R}{c_s}\\
+	&\propto T^{-1/2},\quad \text{ideal gas}\,p\propto\rho T
+	\end{align}
 	$$
+	where $c_s$ is the [sound speed](<Thermodynamic Process>)
+
+### Estimate central pressure and temperature
+$$
+\frac{p_c}{R} \approx -\frac{GM\rho}{R^2}
+$$
+with ideal gas
+$$
+p_c = \frac{\rho kT_c}{\mu m_H}
+$$
+where 
+$$ \rho \approx \frac{M}{4R^3} $$
+
+### Deduce [Virial Theorem](<Virial Theorem>)
+
