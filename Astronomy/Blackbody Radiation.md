@@ -1,12 +1,12 @@
 ## Planck Formula
-[Intensity](Radiation%20(Concepts).md) of thermal radiation,
+[Intensity](Radiation.md) of thermal radiation,
 $$
 B_\nu(T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/kT}-1}
 $$
 $$
 B_\lambda(T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{hc/\lambda kT}-1}
 $$
-In the form of [energy density](<Radiation (Concepts).md>), $u_\nu(T)=\frac{4\pi}{c}B_\nu(T)$,
+In the form of [energy density](Radiation.md (Concepts).md>), $u_\nu(T)=\frac{4\pi}{c}B_\nu(T)$,
 $$
 u_\nu(T) = \frac{8\pi h\nu^3}{c^3}\frac{1}{e^{h\nu/kT}-1}
 $$
