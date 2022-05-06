@@ -7,4 +7,9 @@ $$
 $$
 \frac{dp}{dM_r} = -\frac{GM_r}{4\pi r^4}
 $$
-3. 
+3. 能量方程
+	$$ \frac{dL}{dM_r}=\varepsilon_N + \varepsilon_g - \varepsilon_\nu $$
+	Where 
+	$\varepsilon_g = - c_P \dot T + \dfrac{\delta}{\rho}\dot P$
+	$\delta = -(\partial \ln P/\partial \ln T)_p$
+	
