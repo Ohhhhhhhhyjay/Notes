@@ -27,8 +27,8 @@ $$
 $$
 \tau_\nu = \int_0^s \chi_\nu\rho ds,\quad d\tau_\nu = \chi_\nu \rho ds,
 $$
-	$\tau_\nu \gg 1$ 称光学厚
-	$\tau_\nu \ll 1$ 称光学薄
+$\tau_\nu \gg 1$ 称光学厚
+$\tau_\nu \ll 1$ 称光学薄
 - 发射系数 $j_\nu$
 $$
 dE_\nu = j_\nu dm ds dt d\nu d\omega
