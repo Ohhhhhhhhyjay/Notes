@@ -26,3 +26,15 @@ When you create a branch off the `main` branch, you're making a copy, or snaps
 Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our `main` (production) branch. When a change is ready, they merge their branch into `main`.
 
 
+## My Simplest Work flow
+To uploading local work, open git bash in the directory with `.git` and type command
+```
+git add .
+git commit -m "<note>"
+git push -u origin main
+```
+
+To sync local work with github, open git bash in the directory with .git and type command
+```
+git pull
+```
