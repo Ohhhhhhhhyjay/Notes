@@ -5,3 +5,13 @@
 ### From First Principles
 ### From Hydrostatic Equilibrium
 
+## Related Ideas
+### Virial temperature
+$$T_\text{vir} = \frac{GM}{3kR}$$
+For a system of mass $M$ and radius $R$ with constant density, the gravitational energy per unit mass is $W = GM/R$. The kinetic energy per unit mass is $E = (3/2)kT_\text{vir}/μ$
+$$
+\begin{align}
+2K + U = 0\\
+2 \times \frac{3}{2}kT/\mu + \frac{GM}{R} = 0
+\end{align}
+$$

@@ -13,6 +13,7 @@ git commit -m "<note>"
 git remote add origin https://github.com/Ohhhhhhhhyjay/Notes.git
 git push -u origin main
 ```
+
 -u: set-upstream, For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less [git-pull(1)](git-pull.html) and other commands. For more information, see `branch.<name>.merge` in [git-config(1)](git-config.html).
 
 ## Creating a branch
@@ -28,13 +29,20 @@ Here at GitHub, our developers, writers, and designers use branches for keeping 
 
 ## My Simplest Work flow
 To uploading local work, open git bash in the directory with `.git` and type command
+
 ```
-git add .
+git add . 
 git commit -m "<note>"
-git push -u origin main
+git push -u origin main/master
 ```
 
 To sync local work with github, open git bash in the directory with .git and type command
+
 ```
 git pull
 ```
+
+## More About Git
+`git add . --ignore removal`
+
+`git remote remove <origin>`

@@ -25,21 +25,27 @@ https://carpentries-incubator.github.io/shell-extras/02-ssh/index.html
 chmod 644 ~/.ssh/authorized_keys
 ```
 
-## Keep running when logged off
-Use `screen` command
+## Screen: keep running when logged off
 
 ```shell
-screen # open a new screen session
+screen -S <session_name> # open a new screen session
 Ctrl+A+D # detach
 exit # quit
 screen -r # resume
 screen -r 37672.pts-17.appalachia # something like that, if there are more than one screens
 ```
-### Screen
-To navigate in screen, press Ctrl + A then Esc to enter **copy mode**. In the copy mode, you should be able to move your cursor around using the Up/Down arrow keys (↑ and ↓) as well as Ctrl + F (page forward) and Ctrl + B (page back).
+
+- To navigate in screen
+
+press Ctrl + A then Esc to enter copy mode.
+
+In the copy mode, you should be able to move your cursor around using the Up/Down arrow keys (↑ and ↓) as well as Ctrl + F (page forward) and Ctrl + B (page back).
 
 To exit the copy mode and get back to the shell, press Q or Esc
 
+- To rename an existing session
+
+Ctrl + a, : sessionname <session_name>, Enter
 ## Starting jupyter
 
 ```shell

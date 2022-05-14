@@ -15,4 +15,4 @@ Explaining the existence of $M \sim 10^9 M_\odot$ at $z=6-7$.
 
 Pathways to accelerate the assembly of massive BHs in high-z galaxies
 - Lucky Pop III seeds managed $f_\text{duty} \sim 1$ + Compact objects mergers (but gravitational waves drives away resevoirs of dense gas)
-- 
+- Rapid collapse of "atomic cooling halos" (ACHs) with [[Virial Theorem#Virial temperature]] $T_{vir} \sim 10^4 K$
