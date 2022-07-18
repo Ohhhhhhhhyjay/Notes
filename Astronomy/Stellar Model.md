@@ -12,4 +12,15 @@ $$
 	Where 
 	$\varepsilon_g = - c_P \dot T + \dfrac{\delta}{\rho}\dot P$
 	$\delta = -(\partial \ln P/\partial \ln T)_p$
+
+4. 能量传输方程
+	
+	Radiation
+	$$
+	\frac{dT}{dr} = -\frac{3}{4ac}\frac{\bar\kappa \rho}{T^3}\frac{L_r}{4\pi r^2}
+	$$
+	convection if $d\ln P/d\ln T < \gamma/(\gamma - 1)$
+	$$
+	\frac{dT}{dr} = -(1-\frac{1}{\gamma})\frac{\mu m_H}{k}\frac{GM_r}{r^2}
+	$$
 	

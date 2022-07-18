@@ -25,6 +25,12 @@ https://carpentries-incubator.github.io/shell-extras/02-ssh/index.html
 chmod 644 ~/.ssh/authorized_keys
 ```
 
+Checking connections
+
+```
+ping 128.59.169.127
+```
+
 ## Screen: keep running when logged off
 
 ```shell
@@ -35,7 +41,7 @@ screen -r # resume
 screen -r 37672.pts-17.appalachia # something like that, if there are more than one screens
 ```
 
-- To navigate in screen
+#### To navigate in screen
 
 press Ctrl + A then Esc to enter copy mode.
 
@@ -43,9 +49,10 @@ In the copy mode, you should be able to move your cursor around using the Up/Dow
 
 To exit the copy mode and get back to the shell, press Q or Esc
 
-- To rename an existing session
+#### To rename an existing session
 
-Ctrl + a, : sessionname <session_name>, Enter
+Ctrl + a,  `: sessionname <session_name>` , Enter
+
 ## Starting jupyter
 
 ```shell

@@ -26,6 +26,6 @@ with open('filename') as file:
 ```python
 with open('filename') as f: 
      for line in f: 
-         print(line)
+         print(line) 
 ```
 

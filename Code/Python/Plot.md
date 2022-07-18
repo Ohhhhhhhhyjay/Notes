@@ -1,4 +1,5 @@
-## Create plots
+## Plots
+Routine
 ```python
 fig, axes = plt.subplots(1, 2, figsize=(15, 6)) # 1 row, 2 plots
 axes[0].scatter()
@@ -6,7 +7,37 @@ axes[1].plot()
 plt.show()
 ```
 
-## Customize legend
+Label and titles
+```python
+axes[0].set(xlabel='x label', ylabel='y label', title='Title')
+axes[1].set(xlabel='x label', ylabel='y label', title='Title')
+```
+
+```python
+plt.xlabel('x label')
+plt.ylabel('y label')
+plt.title('Title')
+```
+
+Heatmap (seaborn): 在作 confusion matrix 时用到，比 imshow 强大一点。这里主要用到在热图上标注的功能，是 imshow 没有的。
+```Python
+sns.heatmap(cm_accuracy, annot=cm,
+xticklabels=['0.0','0.14','0.28','0.43','0.57','0.71','0.86','1.0'],
+yticklabels=['0.0','0.14','0.28','0.43','0.57','0.71','0.86','1.0'])
+```
+
+Histogram 2d: 在作模拟的 snapshot 的可视化时用到
+```python
+hist, xedges, yedges, image = plt.hist2d(x, y, bins=64, density=False, norm=matplotlib.colors.LogNorm(), weights=None, range=None, cmin=None, cmax=None)
+```
+
+
+### Logarithmic axis
+```Python
+axe.set_yscale("log")
+```
+
+### Customize legend
 ```python
 a, b = scatter.legend_elements()
 b = [
@@ -19,6 +50,16 @@ b = [
     ]
 axes[0].legend(a, b)
 ```
+
+## Common Configurations
+`marker`
+`label`
+`color`
+`linewidth`
+`s`
+`alpha`
+`cmap`
+
 
 ## Notebook backends
 

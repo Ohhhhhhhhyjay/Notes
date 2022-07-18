@@ -12,8 +12,13 @@
 ### Run scripts
 `source <filename>`
 
-### ls
-`ls -lh` to list files
+### Navigate through folders
+`ls -lh` : list with detailed information
+`cd` : move to directories
+
+### Create and move files
+`mv <file location> <new location>`
+`mkdir <name>`
 
 
 ## System information

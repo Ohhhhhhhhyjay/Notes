@@ -1,6 +1,7 @@
 ## Virial Theorem
 对于处于自引力束缚的平衡系统，有$\langle E\rangle = \langle U \rangle /2$ (or $2\langle K \rangle + \langle U \rangle = 0$).
 其中 $E$, $U$, $K$ 分别代表机械能，势能，动能
+
 ## Proof
 ### From First Principles
 ### From Hydrostatic Equilibrium
@@ -15,3 +16,6 @@ $$
 2 \times \frac{3}{2}kT/\mu + \frac{GM}{R} = 0
 \end{align}
 $$
+
+### Virialization
+The formation of a dynamic equilibrium in a system of collisionless particles modelled as being subject only to Newtonian gravity (galaxy, other stellar system, or galaxy cluster).

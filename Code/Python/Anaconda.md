@@ -52,3 +52,15 @@ On installing pycuda (when installing `scikit-cuda`:
 `conda install -c conda-forge pycuda` does the job
 Anaconda永远的神
 
+### Copy and reproducing conda environment
+Saving the environment in yaml file
+
+```python
+conda env export > environment.yaml
+```
+
+Installing the environment specified by yaml file
+
+```python
+conda env create -f environment.yaml
+```
